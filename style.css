@@ -1,0 +1,54 @@
+/* - Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+body {
+  background-color: hsl(225, 100%, 94%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+.div-1 {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.img-1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 300px;
+}
+.div-2 {
+  text-align: center;
+}
+.div-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 250px;
+  height: 30px;
+}
+p {
+  color: gray;
+}
+.h4-2 {
+  color: gray;
+}
+.h4-1 {
+  color: hsl(223, 47%, 23%);
+}
+h2 {
+  color: hsl(223, 47%, 23%);
+}
