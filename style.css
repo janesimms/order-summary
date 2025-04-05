@@ -18,7 +18,7 @@ body {
 .img-1 {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  width: 300px;
+  width: 400px;
 }
 .div-2 {
   text-align: center;
@@ -26,28 +26,45 @@ body {
 .div-3 {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 10px;
   background-color: hsl(225, 100%, 98%);
+  padding: 0 20px;
 }
+
+.ss {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 button {
   background-color: hsl(245, 75%, 52%);
   color: white;
   margin-top: 10px;
   border-radius: 10px;
-  width: 250px;
-  height: 30px;
+  width: 90%;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 2px 0 20px 0px hsla(245, 75%, 52%, 0.726);
 }
 p {
   color: gray;
+  margin-bottom: 20px;
 }
 .h4-2 {
   color: gray;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
 }
 .h4-1 {
   color: hsl(223, 47%, 23%);
+  padding: 0;
+  margin: 15px 0;
 }
 h2 {
   color: hsl(223, 47%, 23%);
